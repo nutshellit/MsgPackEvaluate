@@ -16,7 +16,7 @@ void Main()
 	deccryp.Dump();
 
 	string xx = "tScxeoPdaG9lbHGiZRwMJVqKzZe6WaUxOQq3I7BgZAcPp6IglXwC2UDgCI1Ap0J5WbEkhsKtRCWMkdRymPuud+a4A/q3aDD3pDWmVv+8Fy6fhOhZCYiOgRvjqZ8nWzJa";
-	string deccryp1 = AES.Decrypt(xx, "123456");
+	string deccryp1 = AES.Decrypt(xx, "12345");
 	deccryp1.Dump();
 
 }
