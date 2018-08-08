@@ -10,3 +10,6 @@ Output of MesagePackSerializer is a byte array. This is easily handled by a web 
 Something like Request.Body.CopyToAsync(memoryStream) -> byte[] body = memoryStream.ToArray() -> MessagePackSerializer.Deserialize<T>(body)
 ## Step 3 'MstPackSaveToBlob' - Can save to azure blob in binary format and retrieve
 Want to be able to dump incoming payloads to blob storage to be processed later by some job
+
+## Other stuff 'BasicEncryption.linq'
+Basic encryption utility in linqpad for encryptiong command audit logs that can be shipped with above....
