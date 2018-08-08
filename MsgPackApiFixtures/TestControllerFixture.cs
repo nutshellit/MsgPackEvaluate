@@ -10,8 +10,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 using System.Linq;
+using MsgPackLib;
 
-namespace MsgPackLib
+namespace MsgPackSimpleFixtures
 {
     public class TestController
     {
